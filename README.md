@@ -7,7 +7,7 @@ This project is built with Angular 18, using SCSS and Bootstrap for styling. It 
 To clone the repository with a shallow copy to reduce the size of the clone, use the following command:
 
 ```bash
-git clone --depth 1 https://github.com/SebastianoFazzino/my-portfolio.git
+git clone --depth 1 https://github.com/Balajimantro/My-Angular-Portfolio.git
 ```
 
 ## Installation
