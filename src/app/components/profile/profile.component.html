@@ -1,0 +1,24 @@
+<div id="profile" class="container col-12 col-md-10 my-5 p-0 mx-auto">
+  <div class="row">
+    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center p-0">
+      <img src="./assets/profile.png" alt="Profile image" class="rounded-circle img-fluid profile-pic">
+    </div>
+    <div class="col-md-6 d-flex flex-column justify-content-center align-items-center p-0">
+      <p class="fs-5">Hello, I'm</p>
+      <h1 class="fw-bold fs-1">Balaji Seenivasan</h1>
+      <p class="subtitle fs-4">Software Engineer</p>
+      <div class="d-flex justify-content-center my-4">
+        <button class="bt btn-color-2 me-3" (click)="openResume()" >
+          Download CV
+        </button>
+        <button class="bt btn-color-1" (click)="scrollTo('contacts')">
+          Contact Me
+        </button>
+      </div>
+      <div class="d-flex justify-content-center mt-1">
+        <i class="fab fa-linkedin fa-3x icon mx-2 pointer" (click)="goToLinkedin()"></i>
+        <i class="fab fa-github fa-3x icon mx-2 pointer" (click)="goToGithub()"></i>
+      </div>
+    </div>
+  </div>
+</div>

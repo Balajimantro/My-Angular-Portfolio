@@ -1,0 +1,41 @@
+.about-pic {
+  @media (min-width: 992px) {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  @media (max-width: 1400px) {
+    width: 100%;
+  }
+
+  @media (max-width: 575px) {
+    width: 50%;
+  }
+}
+
+.about_us_ul {
+  @media (min-width: 992px) {
+    margin-right: 20px;
+  }
+}
+
+.about_main_container {
+  @media (max-width: 575px) {
+   flex-direction: column-reverse;
+
+  }
+}
+
+.about-card {
+  max-width: 400px;
+  width: 100%;
+}
+
+.about-subtitle {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin: 0.5rem 0;
+}
+
